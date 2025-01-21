@@ -7,7 +7,7 @@ import { SimplePokemon } from '../types';
   imports: [RouterLink],
   template: `
     <div
-      [routerLink]="['/pokemons', pokemon().id]"
+      [routerLink]="['/pokemons', pokemon().name]"
       class="animate-fadeIn bg-blue-500 h-44 bg-opacity-25 rounded-lg shadow-md flex flex-col p-4 items-center justify-center cursor-pointer">
       <img
         [src]="pokemonImage()"

@@ -6,5 +6,8 @@
         "angular-*": {
             "skipStyle": true
         }
-    }
+    },
+    "cSpell.words": [
+        "prerender"
+    ]
 }
